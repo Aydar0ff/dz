@@ -5,7 +5,7 @@ let Answer = this_year - old;
 
 if (Answer < 0){
     // alert("you are" + Answer + " years old");
-    alert("Вы еще не родились, и как вы пишите?");
+    alert("Вы еще не родились, и как вы вообще пишите?");
 }else if(Answer > 30 && Answer < 60){
     alert("Кризис среднего возраста");
 }else if(Answer < 30){
